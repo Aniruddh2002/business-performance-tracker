@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Performance Tracker</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container { 
+            max-width: 900px; 
+            margin: 0 auto; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+        }
+        h1 { 
+            color: #2c3e50; 
+            border-bottom: 3px solid #3498db; 
+            padding-bottom: 10px; 
+            text-align: center;
+        }
+        .download-btn { 
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white; 
+            padding: 15px 30px; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            margin: 10px 5px; 
+            display: inline-block; 
+            font-weight: bold;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+        .download-btn:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+        }
+        .stats { 
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-card { 
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white; 
+            padding: 25px; 
+            border-radius: 10px; 
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .stat-card h3 { margin: 0; font-size: 2.5em; }
+        .stat-card p { margin: 10px 0 0 0; opacity: 0.9; }
+        .features { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+            gap: 20px; 
+            margin: 30px 0;
+        }
+        .feature-card { 
+            background: #f8f9fa; 
+            padding: 25px; 
+            border-radius: 10px; 
+            border-left: 5px solid #3498db;
+            transition: transform 0.3s;
+        }
+        .feature-card:hover { transform: translateY(-5px); }
+        .emoji { font-size: 2em; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Business Performance Tracker</h1>
+        <p style="text-align: center; font-size: 1.2em; color: #7f8c8d;"><strong>A comprehensive Power BI dashboard for sales analytics and performance monitoring</strong></p>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <h3>1.12M</h3>
+                <p>Total Sales</p>
+            </div>
+            <div class="stat-card">
+                <h3>304</h3>
+                <p>Customers</p>
+            </div>
+            <div class="stat-card">
+                <h3>19</h3>
+                <p>Products Tracked</p>
+            </div>
+        </div>
+
+        <h2>📊 Dashboard Features</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="emoji">📈</div>
+                <h3>Sales Tracking</h3>
+                <p>Cumulative sales analysis based on delivery dates with comprehensive trend visualization</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🏆</div>
+                <h3>Product Performance</h3>
+                <p>Top 5 and Bottom 5 product performance analysis with detailed breakdowns</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🌍</div>
+                <h3>Geographic Insights</h3>
+                <p>Country-wise sales distribution with interactive filtering capabilities</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">⭐</div>
+                <h3>Customer Analytics</h3>
+                <p>Sales ratings analysis and comprehensive customer behavior tracking</p>
+            </div>
+        </div>
+
+        <h2 style="text-align: center;">📥 Download Project Files</h2>
+        <div style="text-align: center; margin: 30px 0;">
+            <a href="Business Performance Tracker.pbix" class="download-btn">📊 Download Power BI Dashboard</a>
+            <a href="Fact_Sales_Data-1.xlsx" class="download-btn">📋 Download Excel Data File</a>
+        </div>
+
+        <h2>🚀 Quick Start Guide</h2>
+        <ol style="font-size: 1.1em; line-height: 1.8;">
+            <li><strong>Download</strong> the .pbix file using the button above</li>
+            <li><strong>Install</strong> Power BI Desktop (free from Microsoft Store)</li>
+            <li><strong>Open</strong> the downloaded .pbix file in Power BI Desktop</li>
+            <li><strong>Explore</strong> the interactive dashboard and gain insights</li>
+        </ol>
+
+        <h2>🛠️ Technical Specifications</h2>
+        <div style="background: #ecf0f1; padding: 20px; border-radius: 8px; margin: 20px 0;">
+            <ul style="list-style: none; padding: 0;">
+                <li><strong>📱 Platform:</strong> Microsoft Power BI Desktop</li>
+                <li><strong>💾 Data Source:</strong> Excel spreadsheet with 304 customers and 19 products</li>
+                <li><strong>📊 Visualizations:</strong> Line charts, Pie charts, Bar graphs, KPI cards</li>
+                <li><strong>⚡ Features:</strong> Interactive filters, Drill-down capabilities, Real-time insights</li>
+                <li><strong>🌐 Compatibility:</strong> Power BI Desktop, Power BI Service</li>
+            </ul>
+        </div>
+
+        <footer style="text-align: center; margin-top: 50px; padding-top: 30px; border-top: 2px solid #bdc3c7; color: #7f8c8d;">
+            <p><strong>🔗 Repository:</strong> <a href="https://github.com/Aniruddh2002/business-performance-tracker" style="color: #3498db;">View on GitHub</a></p>
+            <p>Built with ❤️ using Power BI | Hosted on GitHub Pages</p>
+            <p><em>© 2025 Business Performance Tracker</em></p>
+        </footer>
+    </div>
+</body>
+</html>
